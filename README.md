@@ -2,7 +2,7 @@
 survey form certification project from freecodecamp
 
 **tools used**
-*github
-*codepen.io
-*freecodecamp
-*netlify
+* github
+* codepen.io
+* freecodecamp
+* netlify
