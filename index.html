@@ -1,0 +1,62 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Video Game Survey</title>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+  <fieldset>
+        <header>
+          <h1 id="title">Video Game Survey</h1>
+          <p id="description"><em>Getting to know the gaming community from all ages alike</em></p>
+    </header>
+    
+    <main>
+          <form id="survey-form">
+  
+              <label for="name" class="name" id="name-label"> Name: <br><input  id="name"  placeholder="name" name="name" type="text" required></label>
+              <label for="email" class="email" id="email-label"> Email: <br><input id="email" 
+              placeholder="name" name="email" type="email" required></label>
+              <label for="age" class="age-label" id="number-label"> Enter your age: <br><input id="number" placeholder="age" name="age" type="number" min="1" max="120" required></label>
+  
+            <div class="years-select"><label for="years" class="years" id="years-label">How long you've been playing(years): <br></label>
+            
+            
+            <label for="<1"><input id="less-than-one" value="1" type="radio" name="years" class="inline" checked> <1 <br></label>
+              <label for="2-4"><input value="2-4" id="two-four" type="radio" name="years" class="inline"> 2-4 <br></label>
+              <label for="5-10"><input
+  value="5-10" id="five-ten" type="radio" name="years" class="inline"> 5-10 <br></label>
+              <label for="eleven-twenty"><input value="11-20" id="11-20" type="radio" name="years" class="inline"> 11-20 <br></label>
+              <label for=">twenty-plus"><input value="20" id=">20" type="radio" name="years" class="inline"> >20 <br></label>
+            </div>
+           
+                 <div class="consoles"><label for="consoles" class="consoles-label" id="consoles-label">Types of consoles you own: <br></label>
+                <label for="playstation"><input value="playstation" id="playstation" type="checkbox" name="years" class="inline"> Playstation </label><br>
+                <label for="xbox"><input value="xbox" id="xbox" type="checkbox" name="years" class="inline"> Xbox </label><br>
+                <label for="switch"><input value="switch" id="switch" type="checkbox" name="years" class="inline"> Nintendo Switch </label><br>
+                <label for="pc"><input value="pc" id="pc" type="checkbox" name="years" class="inline"> PC </label><br>
+                <label for="mobile"><input value="mobile" id="mobile" type="checkbox" name="years" class="inline"> Mobile </label><br>
+                <label for="other"><input value="other" id="other" type="checkbox" name="years" class="inline"> Other </label><br></div>
+                
+                <div class="genre"><label for="genre">Preferred Genre:
+            <select id="dropdown" name="genre">
+              <option value="v">v</option>
+              <option value="Action">Action</option>
+              <option value="Adventure">Adventure</option>
+              <option value="RPG">RPG</option>
+              <option value="Simulation">Simulation</option>
+              <option value="Strategy">Strategy</option>
+              <option value="Sports">Sports</option>
+              <option value="Puzzle">Puzzle</option>
+            </select>
+                  </label></div>
+                
+                <div class="favorite-game"><label for="favorite" class="favorite" id="favorite-label">Favorite Game:<br><textarea id="favorite" name="favorite" rows="3" cols="30" placeholder="Optional"></textarea></div>
+  
+           <input id="submit" type="submit" value="Submit" />
+  
+        </main>
+        <footer></footer>
+        </fieldset>
+            </body>
